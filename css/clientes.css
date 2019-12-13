@@ -1,13 +1,12 @@
 #bg-image-qmed,
 #bg-image-qcitas {
-    background-image: url(../img/us.jpg);
-    background-color: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, .9) url(../img/us.jpg);
     background-size: cover;
 }
 
 #bg-med-1,
 #bg-med-2 {
-    background-image: url(../img/home-quienessomos-fondo.jpg);
+    background: rgba(0, 0, 0, .9) url(../img/home-quienessomos-fondo.jpg);
     background-size: cover;
 }
 
@@ -87,4 +86,8 @@
     100% {
         right: 0px;
     }
+}
+
+.hs-img:hover {
+    padding-top: 0px;
 }

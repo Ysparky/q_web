@@ -19,8 +19,7 @@
     }
 }
 #bg-image-we {
-    background-image: url(../img/us.jpg);
-    background-color: rgba(0, 0, 0, .9);
+    background: rgba(202, 70, 70, 0.9) url(../img/us.jpg);
     background-size: cover;
 }
 
