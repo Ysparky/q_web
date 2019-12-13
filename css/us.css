@@ -1,0 +1,81 @@
+/* .image-p {
+    float: left;
+    margin: auto;
+    max-width: 410px;
+    min-width: 23px;
+} */
+
+.image-p{
+    min-width: 340px;
+    max-width: 500px;
+    float: left;
+    padding-top: 10px;
+    margin: 1rem;
+}
+@media only screen and (max-width: 600px) {
+    .image-p{
+        max-width: 340px;
+        float: none;
+    }
+}
+#bg-image-we {
+    background-image: url(../img/us.jpg);
+    background-color: rgba(0, 0, 0, .9);
+    background-size: cover;
+}
+
+#img-we {
+    margin: 6% 0;
+}
+
+.start-nosotros {
+    position: relative;
+    animation-name: nosotros;
+    animation-duration: 2s;
+}
+
+.start-imagep {
+    position: relative;
+    animation-name: image;
+    animation-duration: 2s;
+}
+
+.start-p {
+    position: relative;
+    animation-name: paragraph;
+    animation-duration: 2s;
+}
+
+.p-tag {
+    text-align: justify;
+}
+
+@keyframes nosotros {
+    0% {
+        bottom: 100px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+@keyframes image {
+    0% {
+        right: 100px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+@keyframes paragraph {
+    0% {
+        top: 100px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}

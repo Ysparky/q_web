@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="img/qullana.ico" sizes="192x192">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Inicio | Qullana</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 25,
+                time: 2000
+            });
+        });
+    </script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="40">
+
+    <div class="container-fluid">
+        <!-- NAVBAR -->
+        <div class="row sticky-top bg-nav">
+            <div class="offset-sm-1 col-sm-10">
+                <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+                    <a href="index.html" class="navbar-brand mb-0 h1">
+                        QULLANA
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Nuestras Soluciones
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="index.html#medicos">Para médicos</a>
+                                    <a class="dropdown-item" href="index.html#container3">Para clínicas</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="clientes.html">Cliente</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- NOSOTROS -->
+        <div class="row text-center" id="container1">
+            <div id="subcont1" class="col-12">
+                <div class="col-12">
+                    <img src="img/qullana.png" alt="Imagen de Qullana" width="100%" class="imagen">
+                </div>
+                <p class="text-muted col-md-6 offset-md-3 col-sm-8 offset-sm-2 offset-1 col-10 my-3">
+                    Qullana significa en Aymara(segunda lengua en Perú) “el que cura”. Es una plataforma que busca
+                    empoderar al paciente a través de soluciones para médicos particulares o clínicas.
+                </p>
+                <div class="col-12">
+                    <a href="nosotros.html" class="btn btn-outline-primary rounded-pill">Conoce más de nosotros</a>
+                </div>
+            </div>
+        </div>
+        <!-- ESTADISTICAS -->
+        <div class="row" id="container4">
+            <div class="offset-sm-1 col-sm-10">
+                <div id="subcounters">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="row align-items-center py-3 counter-icon mx-0 text-center">
+                                <div class="col-4 col-md-4">
+                                    <img src="img/client_icon.svg" class="img-fluid ">
+                                </div>
+                                <div class="col-3 col-md-4  px-0">
+                                    <span class="counter">6</span>
+                                </div>
+                                <div class="col-5 col-md-4 px-0">
+                                    <div class="texto">Clientes</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="row align-items-center py-3 counter-icon mx-0">
+                                <div class="col-4 col-md-4 col-sm-4 ">
+                                    <img src="img/calendar.png" class="img-fluid ">
+                                </div>
+                                <div class="col-3 col-md-4 text-center px-0">
+                                    <span class="counter">10,000</span>
+                                </div>
+                                <div class="col-5 col-md-4 px-0">
+                                    <div class="text-center text-wrap texto">Citas Reservadas</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-12">
+                            <div class="row align-items-center py-3 counter-icon mx-0">
+                                <div class="col-4 col-md-4 col-sm-4">
+                                    <img src="img/report.png" class="img-fluid">
+                                </div>
+                                <div class="col-3 col-md-4 text-center px-0">
+                                    <span class="counter">120</span>
+                                </div>
+                                <div class="col-5 col-md-4 px-0">
+                                    <div class="text-center texto">Reportes</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- NUESTRAS SOLUCIONES -->
+        <div id="bg-image-os" class="row">
+            <h3 class="text-uppercase bold-font text-center col-12 bg-text" id="img-us">Nuestras Soluciones</h3>
+        </div>
+
+        <!-- MEDICOS -->
+        <div id="medicos">
+            <div class="row text-center" id="container2">
+                <div id="sub2">
+                    <h4 class="col-12 m-0 h4">CONSULTORIOS PARTICULARES:</h4>
+                    <h1 class="col-12 m-0 h1">QULLANA MED</h1>
+                    <p class="col-12 text-muted" id="p-med">Plataforma que permite al médico gestionar su
+                        consultorio
+                    </p>
+                    <div class="col-sm-10 offset-sm-1">
+                        <div class="row med">
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">CITAS</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">PACIENTES</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">HCE</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">CAJA & FACTURACIÓN</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">TELEMEDICINA</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-6 col-sm-4 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">HEALTH TRACKERS</h5>
+                                </a>
+                                <div class="offset-md-3 col-md-6 offset-sm-3 col-sm-6">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6 col-sm-6 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">ANALYTICS</h5>
+                                </a>
+                                <div class="offset-md-4 col-md-4 offset-sm-3 col-sm-8">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-6 col-sm-6 mb-3">
+                                <a data-toggle="modal" data-target="#citas" class="text-muted btn">
+                                    <h5 class="text-muted">SEGUIMIENTO</h5>
+                                </a>
+                                <div class="offset-md-4 col-md-4 offset-sm-2 col-sm-8">
+                                    <a data-toggle="modal" data-target="#citas">
+                                        <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-muted offset-md-3 col-md-6 col-12">
+                        ¡Permite que tus pacientes puedan reservar y pagar su cita en tu consultorio a través de
+                        QullanaPac,
+                        en versiones web y app!
+                    </div>
+                    <!-- <div class="col-12 mt-3">
+                        <button type="button" class="btn btn-primary rounded-pill">Conoce más sobre Qullana
+                            Med</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- CLINICAS -->
+        <div class="row text-center" id="container3">
+            <div id="sub3">
+                <h4 class="col-12 m-0 h4">CLÍNICAS Y HOSPITALES:</h4>
+                <h1 class="col-12 m-0 h1">QULLANA CITAS</h1>
+                <p class="offset-md-3 col-md-6 col-12 text-muted" id="p-citas">
+                    Plataforma que permitirá a sus pacientes reservar y pagar sus citas desde cualquier lugar y
+                    hora.
+                    Añadimos cuatro canales adicionales para que su clínica u hospital pueda automatizar todo su
+                    proceso
+                    de gestión de citas.
+                </p>
+                <div class="col-md-10 offset-md-1">
+                    <div class="row med">
+                        <div class="col-md-3 col-6 col-sm-3 mb-3">
+                            <div class="offset-md-2 col-md-8">
+                                <a href="#">
+                                    <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 col-sm-3 mb-3">
+                            <div class="offset-md-2 col-md-8">
+                                <a href="#">
+                                    <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 col-sm-3 mb-3">
+                            <div class="offset-md-2 col-md-8">
+                                <a href="#">
+                                    <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 col-sm-3 mb-3">
+                            <div class="offset-md-2 col-md-8">
+                                <a href="#">
+                                    <img src="img/qullana.png" class="border rounded-circle img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-muted offset-md-3 col-md-6 col-sm-12">
+                    Tenemos a disposición APIs de conexión para integrarnos con su software de gestión clínica u
+                    hospitalaria.
+                </div>
+                <!-- <div class="col-12 mt-3">
+                    <button type="button" class="btn btn-primary rounded-pill">Conoce más sobre Qullana Med</button>
+                </div> -->
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="row bg-dark p-3 align-items-center">
+            <div class="offset-sm-3 col-sm-2 col-4">
+                <img class="float-right" src="img/logo_qullana_footer.png" alt="Qullana Footer">
+            </div>
+            <div class="col-sm-4 text-left border-left col-8">
+                <p class="text-light mb-0 " style="font-size: 10pt;">
+                    Maestro Barbieri 264, San Borja – Lima Perú
+                    <br>
+                    (01) 2253430 | (+ 51) 963764638
+                    <br>Lunes a Viernes de 8am a 6pm
+                    <br>
+                    &copy; Lolimsa Consultoria de Sistemas
+                    <!-- <br>
+                    <a href="https://www.lolimsa.com.pe/" target="_blank">www.lolimsa.com.pe</a> -->
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- (+ 51) 1 2253430
+    Celular. 963764638 -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="citas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- <div class="col-12 mb-2">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div> -->
+                            <span class="h1 col-12 text-center border-bottom">
+                                CITAS
+                            </span>
+                            <p class="col-12 mb-0 text-justify ">
+                                <!-- <img src="img/citas.jpg" class="img-fluid px-5 my-2" alt=""> -->
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, asperiores ab, autem
+                                molestias sapiente itaque aspernatur perspiciatis, maxime exercitationem vero dolor
+                                tempore
+                                velit vel libero incidunt consequatur hic? Omnis, quae.
+                                Cupiditate perferendis reiciendis, fuga rerum aperiam consectetur? Nobis, tenetur!
+                                Exercitationem laboriosam ullam fugit qui nulla? Quos beatae esse nihil! Excepturi
+                                perferendis, accusamus maxime consectetur asperiores deserunt a aperiam alias quas.
+                                Unde delectus dolorum quam vitae sequi atque sit nobis ipsa at nemo! Asperiores corrupti
+                                dolorum placeat voluptate delectus! Asperiores saepe, soluta atque blanditiis nulla ipsa
+                                exercitationem esse ipsum animi ea!
+                                Fugiat eum dolore rem deleniti libero. Ipsa incidunt modi voluptas sint veritatis
+                                exercitationem optio autem impedit sapiente quos non nihil iusto blanditiis, aspernatur
+                                consequatur debitis repellat assumenda perspiciatis reiciendis dicta.
+                            </p>
+                            <div class="col-12 text-center border-top pt-2 mt-2">
+                                <button type="button" class="btn btn-outline-success"
+                                    data-dismiss="modal">Aceptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/shortcuts/inview.min.js"></script>
+    <script>
+        var in_view = new Waypoint.Inview({
+            element: $('#img-us')[0],
+            enter: function () {
+                $('#img-us').addClass('start-us');
+            }
+        });
+        var in_view2 = new Waypoint.Inview({
+            element: $('#p-med')[0],
+            enter: function () {
+                $('#sub2').addClass('start-sub2');
+            }
+        });
+        var in_view3 = new Waypoint.Inview({
+            element: $('#p-citas')[0],
+            enter: function () {
+                $('#sub3').addClass('start-sub3');
+            }
+        });
+    </script>
+</body>
+
+</html>

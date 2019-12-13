@@ -1,0 +1,90 @@
+#bg-image-qmed,
+#bg-image-qcitas {
+    background-image: url(../img/us.jpg);
+    background-color: rgba(0, 0, 0, .9);
+    background-size: cover;
+}
+
+#bg-med-1,
+#bg-med-2 {
+    background-image: url(../img/home-quienessomos-fondo.jpg);
+    background-size: cover;
+}
+
+#bg-image-pac1 {
+    background-image: url(../img/home-quienessomos-fondo.jpg);
+    background-size: cover;
+}
+
+#img-qmed,
+#img-qcitas {
+    margin: 5% 0;
+}
+
+.padeo {
+    padding: 3% 0;
+}
+
+.start-qmed {
+    position: relative;
+    animation-name: a-qmed;
+    animation-duration: 2s;
+}
+
+@keyframes a-qmed {
+    0% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 0px;
+    }
+}
+
+.start-qnamed1 {
+    position: relative;
+    animation-name: a-qnamed1;
+    animation-duration: 2s;
+}
+
+@keyframes a-qnamed1 {
+    0% {
+        top: 50px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.start-qimage2 {
+    position: relative;
+    animation-name: a-qimage2;
+    animation-duration: 2s;
+}
+
+@keyframes a-qimage2 {
+    0% {
+        left: 50px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.start-qtext2 {
+    position: relative;
+    animation-name: a-qtext2;
+    animation-duration: 2s;
+}
+
+@keyframes a-qtext2 {
+    0% {
+        right: 50px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
