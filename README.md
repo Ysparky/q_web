@@ -1,6 +1,3 @@
-# q_web
+# QULLANA Web
 
-
-Hola gente!
-Me olvidé de configurar el git ignore xd.
-Y lo más top es que sigo usando las CDN c:
+Previous version of an informative website developed in pure HTML5, CSS and JS for [QULLANA](https://qullana.com.pe/)
